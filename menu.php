@@ -18,5 +18,12 @@
             <div id=footer>
                 <p>FOOTER</p>
             </div>
+
+            <?php
+            $counter=0;
+            echo 'the "value" of the counter is '.counter;
+            echo 'br';
+            echo 'the \"value\"" of the counter is $counter';
+            ?>
     </body>
 </html>
